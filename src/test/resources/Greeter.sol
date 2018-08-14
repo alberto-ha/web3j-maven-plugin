@@ -1,4 +1,4 @@
-pragma solidity ^0.4.24;
+pragma solidity ^0.4.23;
 
 /* Example from https://www.ethereum.org/greeter */
 contract mortal {
@@ -18,7 +18,7 @@ contract greeter is mortal {
     string greeting;
 
     /* this runs when the contract is executed */
-    constructor (string _greeting) public {
+    constructor(string _greeting) public {
         greeting = _greeting;
     }
 

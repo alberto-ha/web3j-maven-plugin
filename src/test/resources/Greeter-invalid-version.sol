@@ -1,4 +1,4 @@
-pragma solidity ^1.0.0;
+pragma solidity ^99.99.19;
 
 contract mortal {
 }

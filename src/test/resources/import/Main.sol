@@ -5,7 +5,7 @@ import "./sub/Util.sol";
 contract Main {
     address creator;
 
-    constructor () {
+    constructor () public {
         creator = msg.sender;
     }
 

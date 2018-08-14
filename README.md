@@ -14,7 +14,7 @@ The base configuration for the plugin will take the solidity files from `src/mai
         <plugin>
             <groupId>org.web3j</groupId>
             <artifactId>web3j-maven-plugin</artifactId>
-            <version>0.4.0</version>
+            <version>0.3.1</version>
             <configuration>
                 <soliditySourceFiles/>
             </configuration>
@@ -47,7 +47,7 @@ Create a standard java maven project. Add following `<plugin>` - configuration i
 <plugin>
     <groupId>org.web3j</groupId>
     <artifactId>web3j-maven-plugin</artifactId>
-    <version>0.4.0</version>
+    <version>0.3.1</version>
     <configuration>
         <packageName>com.zuehlke.blockchain.model</packageName>
         <sourceDestination>src/main/java/generated</sourceDestination>
@@ -96,8 +96,9 @@ You need the build-helper-maven-plugin configuration too, else maven-compiler-pl
 
 
 ## Changelog
-### 0.4.0
- * Update Core Version
+### 0.3.1
+ * Update to newest solcj version. Support for Solidity Version 0.4.24
+ * Update to 3.4.0 web3j core version
 
 ### 0.3.0
  * Support of imported Files ```import './other.sol';```
